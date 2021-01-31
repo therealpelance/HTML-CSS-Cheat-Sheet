@@ -31,9 +31,13 @@ thead {
 	background-color: lightslategray;
 }
 
-th,
-td {
+th {
 	padding: 5px;
+}
+
+td {
+	border-bottom: 2px solid lightslategray;
+	padding-left: 10px;
 }
 
 .section_header {
@@ -44,4 +48,9 @@ td {
 	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid black;
+}
+
+.code {
+	background-color: silver;
+	font-family: "source code pro";
 }
